@@ -6,7 +6,7 @@ Here's the link to the figma prototype : https://www.figma.com/proto/1fSMGw1KF24
 
 ## Run the app
 
-To run the app, after downloading Next.Js, you have to go in the my-app/src/app directory and run '''npm run dev''' or '''yarn dev''' in the terminal. 
+To run the app, after downloading Next.Js, you have to go in the my-app/src/app directory and ```npm run dev``` or ```yarn dev``` in the terminal. 
 
 ### Warning !
 

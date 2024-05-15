@@ -2,14 +2,14 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Project from '@/components/Project'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Project from '../../components/Project'
 import { Project_ } from '../types'
 import { useEffect } from 'react'
-import { fetchProjects } from '@/services/service_project'
-import { fetchProjectDataById } from '@/services/service_project'
-import Button from '@/components/ButtonPage'
+import { fetchProjects } from '../../services/service_project'
+import { fetchProjectDataById } from '../../services/service_project'
+import Button from '../../components/ButtonPage'
 
 const Home = () => {
   const [Projects, setProjects] = useState<Project_[]>([])
